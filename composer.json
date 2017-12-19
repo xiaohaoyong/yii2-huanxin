@@ -2,7 +2,7 @@
   "name": "xiaohaoyong/yii2-huanxin",
   "description": "The Imagine integration for the Yii framework",
   "keywords": ["yii2", "huanxin"],
-  "minimum-stability": "dev",
+  "minimum-stability": "1.0",
   "license": "MIT",
   "authors": [
     {
