@@ -8,6 +8,8 @@
 namespace xiaohaoyong\huanxin;
 
 use Yii;
+
+
 class HxHelper extends Component
 {
     /**
