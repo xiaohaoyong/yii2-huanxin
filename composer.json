@@ -3,7 +3,7 @@
   "description": "The Imagine integration for the Yii framework",
   "keywords": ["yii2", "huanxin"],
   "license": "MIT",
-  "minimum-stability": "0.2",
+  "minimum-stability": "0.3",
   "authors": [
     {
       "name": "wangzhen",
@@ -19,3 +19,4 @@
     }
   }
 }
+a4af826
