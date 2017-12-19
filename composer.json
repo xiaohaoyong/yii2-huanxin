@@ -1,8 +1,6 @@
 {
-  // package name
   "name": "xiaohaoyong/yii2-huanxin",
 
-  // package type
   "type": "yii2-extension",
 
   "description": "The Imagine integration for the Yii framework",
@@ -22,12 +20,10 @@
     }
   ],
 
-  // package dependencies
   "require": {
     "yiisoft/yii2": "~2.0.0"
   },
 
-  // class autoloading specs
   "autoload": {
     "psr-4": {
       "xiaohaoyong\\huanxin": ""
