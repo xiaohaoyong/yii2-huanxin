@@ -9,7 +9,8 @@ namespace xiaohaoyong\huanxin;
 
 use Yii;
 
-class HxHelper extends Component
+
+class HxHelper
 {
     /**
      * @todo 执行请求操作
@@ -136,7 +137,6 @@ class HxHelper extends Component
         $data['from'] = $from;
         $data['ext'] = $ext ? $ext : new stdClass();
         $message = json_encode($data);
-        file_put_contents(LOG_PATH."huanxin_message.log",$message."\n",FILE_APPEND);
         return self::execute('messages', 'post', $message);
     }
 
